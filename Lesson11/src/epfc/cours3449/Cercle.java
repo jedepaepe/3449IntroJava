@@ -2,7 +2,7 @@
 package epfc.cours3449;
 
 public class Cercle {
-    static int nrInstance = 0;
+    private static int nrInstance = 0;
     double rayon;
 
     public Cercle(double rayon) {
@@ -12,6 +12,10 @@ public class Cercle {
    
     public double getAire() {
         return Math.PI * rayon * rayon;
+    }
+    
+    static int getNrInstance() {
+        return nrInstance;
     }
     
 }
