@@ -14,8 +14,7 @@ public class Cercle {
         return Math.PI * rayon * rayon;
     }
     
-    static int getNrInstance() {
+    int getNrInstance() {
         return nrInstance;
-    }
-    
+    }   
 }
