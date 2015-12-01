@@ -25,4 +25,11 @@ public class Cercle {
     static int getNrInstance() {
         return nrInstance;
     }
+    
+    public static void main(String[] args) {
+        Cercle c1 = new Cercle(10);
+        System.out.println(c1.getRayon() + " " + c1.getAire());
+        // attention vous accès aux attributs privés
+        System.out.println(c1.rayon);
+    }
 }

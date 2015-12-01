@@ -1,7 +1,7 @@
-
 package epfc.cours3449;
 
 public class TestCercle {
+
     public static void main(String[] args) {
         System.out.println(Cercle.getNrInstance());
         creer3Cercles();
