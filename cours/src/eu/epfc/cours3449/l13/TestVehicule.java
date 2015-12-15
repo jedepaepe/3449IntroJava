@@ -8,5 +8,7 @@ public class TestVehicule {
         v.stop();
         v.setAge(-5);
         System.out.println("l'attribut age n'a pas changé ! : " + v.getAge());
+        v.setAge(8721, 0);
+        System.out.println("Années " + v.getAge() + " - jours " + v.getAge(0));
     }    
 }
