@@ -6,5 +6,7 @@ public class TestVehicule {
         v.setAge(3);
         v.start();
         v.stop();
+        v.setAge(-5);
+        System.out.println("l'attribut age n'a pas changé ! : " + v.getAge());
     }    
 }
