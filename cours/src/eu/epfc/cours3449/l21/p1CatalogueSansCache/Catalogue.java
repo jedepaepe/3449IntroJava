@@ -1,5 +1,6 @@
 package eu.epfc.cours3449.l21.p1CatalogueSansCache;
 
+import eu.epfc.cours3449.l21.p2DB.Livre;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,6 +1,8 @@
 
 package eu.epfc.cours3449.l21.p1CatalogueSansCache;
 
+import eu.epfc.cours3449.l21.p2DB.*;
+
 public class Livre {
     private static int count = 0;
     private int id;     // id technique
